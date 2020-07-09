@@ -22,4 +22,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0rem;
   }
+
+  .navbar {
+      background-color: black;
+      color: white;
+  }
+
+.fa-search {
+    color: white;
+}
