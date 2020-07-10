@@ -33,3 +33,12 @@ h1 {
 .fa-search {
     color: white;
 }
+
+#msgFeatureBlock {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#msgFeatureBlock img {
+    background-color: black;
+}

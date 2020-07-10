@@ -22,15 +22,13 @@
         </div>
       </div>
 
-      <!--need to add row col and group divs-->
       <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="" height="30" width ="30" /></a>
+          <a class="navbar-brand" href="#"><img src="img/logowhite.png" height="30" width ="30" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hubbyGoatNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="hubbyGoatNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
               <li class="nav-item-active"><a class="nav-link" href="#">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="#">About</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Messaging</a></li>
@@ -38,84 +36,59 @@
               <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
               <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
             </ul>
-            <div>
-              <!--why isn't this working?-->
-              <input type="search" id="navSearch" name="navSearch" placeholder="  find..." />
-              <a class="btn btn-info" href="#" role="button">
-                <i class="fa fa-search"></i></a>
+            <div class="form-inline">
+              <input type="search" class="form-control" id="navSearch" name="navSearch" placeholder="find..." />
+              <button class="btn btn-outline-secondary" type="submit"><i class="fa fa-search"></i></button>
             </div>
           </div>
-
-        </div>
       </nav>
 
-      <!--all these breaks here just temporarily to make sure navbar works-->
-      <div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+      <div class="container">
+
+        <div class="row row-content" id="msgFeatureBlock">
+          <div class="col-sm-6">
+            <h2>Feature</h2>
+            <p>this is where I am going to talk about the feature</p>
+            <button class="btn btn-secondary">button</button>
+          </div>
+          <div class="col-sm-6">
+            <img src="img/logowhite.png" />
+          </div>
+        </div>
+
+        <div class="row row-content" id="msgFeatureBlock">
+          <div class="media">
+            <div class="col-sm-6">
+              <img src="img/logowhite.png" />
+            </div>
+          </div>
+          <div class="media-body align-self-right">
+            <div class="col-sm-6">
+              <h2>Feature</h2>
+              <p>this is where I am going to talk about the feature</p>
+              <button class="btn btn-secondary">button</button>
+            </div>  
+          </div>
+        </div>
+
       </div>
+
+      <footer class="site-footer">
+        <div class="container">
+
+          <div class="text-center">
+            <h5>Social</h5>
+            <a class="btn btn-outline-dark btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-outline-dark btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-outline-dark btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-outline-dark btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            <p class="mb-0">Copyright &copy; 2020 hubbyGOAT llc</p>
+            <a href="#">Cookies</a> &middot; <a href="#">Privacy Policy</a>
+          </div>
+
+
+        </div>
+      </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
