@@ -42,3 +42,8 @@ h1 {
 #msgFeatureBlock img {
     background-color: black;
 }
+
+#calendarQuizTempImg {
+    max-height: 400px;
+
+}
