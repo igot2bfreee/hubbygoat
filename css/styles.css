@@ -25,6 +25,10 @@ h1 {
     margin-bottom: 0rem;
   }
 
+  #logoHero {
+    width: 300px; 
+  }
+
   .navbar {
       background-color: black;
       color: white;
@@ -34,11 +38,6 @@ h1 {
     color: white;
 }
 
-#msgFeatureBlock {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 #msgFeatureBlock img {
     background-color: black;
 }
@@ -46,4 +45,14 @@ h1 {
 #calendarQuizTempImg {
     max-height: 400px;
 
+}
+
+/* thisis just temp to show color*/
+#betterNameLater {
+    background-color: yellow;
+}
+
+.fa-arrow-circle-down {
+    position: absolute;
+    bottom: 10px;
 }
