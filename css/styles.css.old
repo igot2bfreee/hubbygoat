@@ -1,0 +1,123 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#suckAtHusbanding {
+    color: white;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../img/angrywiferollingpin.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+  }
+
+ #hero2 {
+    color: white;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../img/hubbygoatMainHero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0rem;
+  }
+
+  #logoHero {
+    width: 60%;
+    Height: auto; 
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+      background-color: #305049;
+      color: #f1eeee;
+  }
+
+  .nav-link {
+      color: white;
+  }
+
+#calendarQuizTempImg {
+    max-height: 400px;
+    position: absolute;
+}
+
+/* thisis just temp to show color*/
+#betterNameLater {
+    background-color:#efd1a9;
+    height: 600px;
+}
+
+#betterNameLater2 {
+    background-color: red;
+}
+
+.fa-arrow-circle-down {
+    position: absolute;
+    bottom: 10px;
+}
+
+.site-footer {
+    background-color: #305049;
+    color: #f1eeee;
+    padding: 20px 20px;
+}
+
+.footer-logo {
+    max-width: 200px;
+    max-height: auto;
+}
+
+/*left off here - need to set up scss..., fix footer margins and */
+/*latest event*/
+.media-body{
+  a{
+    color: #333;
+    &:hover{
+      color: red;
+    }
+  }
+  span{
+      color: #969696;
+    }
+}
+
+/*gallery image*/
+.images-gellary{
+  ul{
+    padding-left: 0;
+    li{
+      list-style: none;
+      float: left;
+      margin: 0 3% 2% 0;
+      width: 31%;
+      position: relative;
+      &:nth-child(3n) {
+  margin: 0 0 1%;
+}
+      a{
+        
+      }
+    }
+  }
+}
+}

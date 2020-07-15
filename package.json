@@ -4,9 +4,10 @@
   "description": "hubbyGOAT - where husbands come to become the Greatest of All Time",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "jquery": "^3.3.1",
     "lite-server": "^2.3.0",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
   }
 }
