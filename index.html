@@ -41,42 +41,71 @@
     </div>
   </nav>
 
-  <div id="loginModal" class="modal fade" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Login</h3>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <div class="container-fluid">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-12">
-                                <label class="sr-only" for="loginEmail">Email address</label>
-                                <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                            </div>
-                            <div class="form-group col-12">
-                                <label class="sr-only" for="loginPassword">Password</label>
-                                <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                            </div>
-                            <div class="col">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="rememberMeCheckbox">
-                                    <label class="form-check-label" for="rememberMeCheckbox">Remember me</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog form-dark" role="document">
+    <!--Content-->
+    <div class="modal-content card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg');">
+      <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+        <!--Header-->
+        <div class="modal-header text-center pb-4">
+          <h3 class="modal-title w-100 white-text font-weight-bold" id="myModalLabel"><strong>SIGN</strong> <a
+              class="green-text font-weight-bold"><strong> UP</strong></a></h3>
+          <button type="button" class="close white-text" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+        <!--Body-->
+        <div class="modal-body">
+          <!--Body-->
+          <div class="md-form mb-5">
+            <input type="email" id="Form-email5" class="form-control validate white-text">
+            <label data-error="wrong" data-success="right" for="Form-email5">Your email</label>
+          </div>
+
+          <div class="md-form pb-3">
+            <input type="password" id="Form-pass5" class="form-control validate white-text">
+            <label data-error="wrong" data-success="right" for="Form-pass5">Your password</label>
+            <div class="form-group mt-4">
+              <input class="form-check-input" type="checkbox" id="checkbox624">
+              <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
+                  Terms and Conditions</a></label>
+            </div>
+          </div>
+
+          <!--Grid row-->
+          <div class="row d-flex align-items-center mb-4">
+
+            <!--Grid column-->
+            <div class="text-center mb-3 col-md-12">
+              <button type="button" class="btn btn-success btn-block btn-rounded z-depth-1">Sign up</button>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+              <p class="font-small white-text d-flex justify-content-end">Have an account? <a href="#" class="green-text ml-1 font-weight-bold">
+                  Log in</a></p>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+        </div>
+      </div>
     </div>
+    <!--/.Content-->
+  </div>
 </div>
+<!-- Modal -->
 
   <div class="jumbotron jumbotron-fluid" id="hero2">
     <div class="container">
@@ -177,7 +206,7 @@
 
         <div class="col-sm-3">
           <h4 class="footer-section-header">Newsletter</h4>
-          <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+          <p>A clever sentence about our newsletter.</p>
             <div class="input-group">
               <input type="text" class="form-control" placeholder="email">
               <span class="input-group-btn">
