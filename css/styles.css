@@ -86,7 +86,7 @@ h1 {
   padding-left: 10px; }
 
 .media-object {
-  margin-top: 5px; }
+  margin-top: 10px; }
 
 ul.pages {
   list-style: none;
@@ -181,3 +181,6 @@ ul.list {
   border-bottom: none; }
 
 /*login modal formatting*/
+.footer-copyright {
+  margin-top: 20px;
+  text-align: center; }
