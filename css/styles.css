@@ -4,6 +4,9 @@ body {
 h1, h2, h3 {
   font-family: "Montserrat", sans-serif; }
 
+h3 > span {
+  color: #305049; }
+
 h1 {
   font-size: 4rem; }
 
@@ -23,7 +26,7 @@ h1 {
 
 #hero2 {
   color: white;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../img/hubbygoatMainHero.jpeg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url(../img/hubbygoatMainHero.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +36,15 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-bottom: 0rem; }
+  #hero2 h3 {
+    margin-bottom: 40px; }
+    #hero2 h3 span {
+      color: #305049;
+      text-transform: uppercase; }
+  #hero2 h5 {
+    text-transform: uppercase; }
+    #hero2 h5 span {
+      color: #efd1a9; }
 
 #comingSoon {
   color: white;
@@ -67,13 +79,6 @@ h1 {
   max-height: 400px;
   position: absolute; }
 
-/* thisis just temp to show color*/
-#betterNameLater {
-  background-color: #efd1a9; }
-
-#betterNameLater2 {
-  background-color: red; }
-
 .fa-arrow-circle-down {
   position: absolute;
   bottom: 10px; }
@@ -104,6 +109,11 @@ h1 {
 
 .media-object {
   margin-top: 10px; }
+
+.media > img {
+  width: 100%;
+  max-width: 100px;
+  height: auto; }
 
 ul.pages {
   list-style: none;
@@ -189,3 +199,42 @@ ul.list {
     transform: translateY(0); }
   100% {
     transform: translateY(0); } }
+
+.intro-section {
+  margin-top: 100px;
+  margin-bottom: 40px; }
+  .intro-section #lincolnCard {
+    margin: 30px 0px 10px; }
+  .intro-section .my-card-header-1 {
+    background-color: #305049;
+    color: #f1eeee; }
+    .intro-section .my-card-header-1 span {
+      color: #efd1a9; }
+  .intro-section #wtfLast, .intro-section #lebronCard {
+    margin-top: 40px; }
+  .intro-section .my-card-header-2 {
+    background-color: #efd1a9; }
+    .intro-section .my-card-header-2 span {
+      color: #305049; }
+
+#featuresListGroup {
+  margin-bottom: 80px; }
+  #featuresListGroup span {
+    color: #305049; }
+  #featuresListGroup .features-list-intro, #featuresListGroup .features-list-summary {
+    text-align: center; }
+  #featuresListGroup .features-list-summary {
+    margin-top: 30px; }
+
+.uppercase {
+  text-transform: uppercase;
+  color: #305049; }
+
+#calFeature, #calQuiz, #msgFeature {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  #calFeature button, #calQuiz button, #msgFeature button {
+    margin-top: 5px;
+    margin-bottom: 5px; }
+  #calFeature .mquiz, #calQuiz .mquiz, #msgFeature .mquiz {
+    margin-top: 20px; }
