@@ -238,3 +238,7 @@ ul.list {
     margin-bottom: 5px; }
   #calFeature .mquiz, #calQuiz .mquiz, #msgFeature .mquiz {
     margin-top: 20px; }
+
+.responsive {
+  max-width: 100%;
+  height: auto; }

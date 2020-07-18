@@ -12,6 +12,7 @@ $(function() {
   });
 });
 
+/* how can i write this function differently so don't have the backwards navigation issue??? */
 $(function() {
   $(window).on('scroll', function() {
 
@@ -22,4 +23,3 @@ $(function() {
     }
   });
 });
-
